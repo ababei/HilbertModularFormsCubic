@@ -366,7 +366,7 @@ sizes:=[];
 
 
 ids:=IdealsUpTo(150, F);
-prec := 25000;                        //!!DO NOT CHANGE PRECISION
+prec := 35000;                        
 M := HMFSpace(F, prec);
 H := HeckeCharacterGroup(1*ZF);
 Y2:=EisensteinSeries(M, 1*ZF,  H!1, H!1, [2,2,2]);
@@ -376,7 +376,7 @@ Y8:=EisensteinSeries(M, 1*ZF,  H!1, H!1, [8,8,8]);
 XX:=Y2^2;
 
 
-prec2:=11760;                          //!!DO NOT CHANGE PRECISION
+prec2:=16464;                         
 M2 := HMFSpace(F, prec2);
 E2:=EisensteinSeries(M2, 1*ZF,  H!1, H!1, [2,2,2]);
 H42:=HeckeOperator(E2^2, ids[3]);
@@ -387,7 +387,7 @@ Y62:=1/Coefficients(H62)[1]*H62;
 
 
 
-prec1:=1470;                           //!!DO NOT CHANGE PRECISION
+prec1:=2058;                           
 M1 := HMFSpace(F, prec1);
 Y21:=EisensteinSeries(M1, 1*ZF,  H!1, H!1, [2,2,2]);
 Y41:=EisensteinSeries(M1, 1*ZF,  H!1, H!1, [4,4,4]);
