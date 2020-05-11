@@ -1,2 +1,9 @@
-# HilbertModularFormsCubic
-Cubic field implementation of Hilbert Modular Form in Magma; previously found in edgarcosta/hilbertmodularforms
+# hilbertmodularforms
+Mockup implementation of Hilbert Modular Forms
+
+
+# Authors:
+
+* John Doe
+
+
